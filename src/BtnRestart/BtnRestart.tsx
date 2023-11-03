@@ -6,7 +6,6 @@ interface Props {
 }
 
 
-
 const BtnRestart: React.FC<Props> = props => {
   return (
     <div>
@@ -16,8 +15,6 @@ const BtnRestart: React.FC<Props> = props => {
 
 
 };
-
-
 
 
 export default BtnRestart;

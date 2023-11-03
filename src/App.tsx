@@ -22,8 +22,6 @@ const createItems = () => {
 }
 
 
-
-
 function App() {
   const [items, setItems] = useState(createItems());
   const [attempts, setAttempts] = useState(0);
@@ -38,13 +36,10 @@ function App() {
     setAttempts(attemptsCopy);
 
 
-
     const itemsCopy = [...items];
     itemsCopy[id].clicked = true;
     setItems(itemsCopy);
   }
-
-
 
   const btnRestart = () => {
     setItems(createItems);
@@ -54,15 +49,12 @@ function App() {
 
 
   return (
-
     <div className="App">
       <Deck squares={items} onClicked={openSquare}/>
       <Attempts attempts={attempts} onClickBtn={btnRestart}/>
       <Victory square={items} onClickBtn={btnRestart}/>
     </div>
   );
-
-
 }
 
 export default App;

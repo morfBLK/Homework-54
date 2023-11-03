@@ -8,7 +8,6 @@ interface Props {
 }
 
 
-
 const Square: React.FC<Props> = (props) => {
   let classSquare = 'square';
   if (props.square.clicked && props.square.hasItem) {
@@ -17,13 +16,10 @@ const Square: React.FC<Props> = (props) => {
     classSquare = 'square-black';
   }
 
-
-
   return (
     <div className={classSquare} onClick={() => props.onClicked(props.square.id)}></div>
   );
 };
-
 
 
 export default Square;

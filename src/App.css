@@ -5,3 +5,8 @@
   flex-direction: column;
   height: 100%;
 }
+
+body {
+  background: url("https://img.freepik.com/free-photo/slightly-blotted-clean-pale-stucco-pattern_1194-7205.jpg?w=1060&t=st=1698975656~exp=1698976256~hmac=697db6f4ff0ab679181b7ab5c461cee1bccb5e048848cc520e439744a9b9ff63");
+  background-size: cover;
+}

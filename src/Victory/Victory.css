@@ -1,0 +1,26 @@
+.victory-n {
+    display: none;
+}
+
+.victory-y {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 68, 68, 0.78);
+}
+
+.won-box {
+    margin-top: 35%;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    color: white;
+    background: blueviolet;
+    border-radius: 15px;
+}

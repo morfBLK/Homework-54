@@ -1,5 +1,12 @@
 .bnt-restart {
     border: none;
-    width: 70px;
+    width: 700px;
     height: 40px;
+    background: green;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.bnt-restart:active {
+    background: red;
 }
