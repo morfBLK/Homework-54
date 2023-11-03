@@ -1,0 +1,26 @@
+.square {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #ea3737;
+    margin: 1px;
+}
+
+.square-black {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: black;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.square-red {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("https://www.pngall.com/wp-content/uploads/2016/05/Ok-PNG-Clipart.png");
+    background-size: cover;
+    margin: 1px;
+    z-index: 10000;
+}
